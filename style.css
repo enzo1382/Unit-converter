@@ -1,0 +1,119 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_num1: #1C1C1C;
+    --color_num2: #fff;
+    --color_num3: lightgreen;
+    --color_num4: #6943ff;
+    --color_num5: #b295ff;
+    --color_num6: #5a537b;
+    --color_num7: #353535;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_num1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color_num4);
+    padding: 36px 60px 28px 60px;
+}
+
+.top__section h1 {
+    color: var(--color_num2);
+}
+
+.top__section input {
+    background-color: var(--color_num4);
+    border: 2px solid var(--color_num5);
+    outline: none;
+    font-size: 60px;
+    font-weight: 700;
+    width: 120px;
+    border-radius: 8px;
+    text-align: center;
+    color: var(--color_num2);
+    margin-top: 30px;
+}
+
+.top__section input::placeholder {
+    color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.top__section button {
+    width: 100px;
+    border: none;
+    outline: none;
+    padding: 8px 21px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.top__section button:active {
+    transform: scale(1.09);
+    transition: all 200ms;
+}
+
+.btn__section {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.buttom__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color_num2);
+    gap: 35px;
+    padding: 50px 25px;
+}
+
+.result__box {
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result__box h4 {
+    color: var(--color_num6);
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.result__box p {
+    margin-top: 20px;
+    color: var(--color_num7);
+}
